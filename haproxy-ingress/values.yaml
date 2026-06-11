@@ -286,7 +286,7 @@ controller:
     #  targetMemoryUtilizationPercentage: 50
     customMetrics: []
     # Enable using external HPA by removing number of replicas
-    # from the Controller deployment, but not deplying the HPA object
+    # from the Controller deployment, but not deploying the HPA object
     useExternalHPA: false
 
   ## VerticalPodAutoscaler configuration
