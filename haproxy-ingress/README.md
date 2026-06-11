@@ -135,11 +135,11 @@ Parameter | Description | Default
 `controller.legacySecurityContext` | Defines if `controller.securityContext` should be applied to the controller's pod (legacy: true) or container (legacy: false)  | `true`
 `controller.livenessProbe.path` | The liveness probe path | `/healthz`
 `controller.livenessProbe.port` | The liveness probe port | `10253`
-`controller.livenessProbe.failureThreshold` | The livneness probe failure threshold | `3`
-`controller.livenessProbe.initialDelaySeconds` | The livneness probe initial delay (in seconds) | `60`
-`controller.livenessProbe.periodSeconds` | The livneness probe period (in seconds) | `10`
-`controller.livenessProbe.successThreshold` | The livneness probe success threshold | `1`
-`controller.livenessProbe.timeoutSeconds` | The livneness probe timeout (in seconds) | `1`
+`controller.livenessProbe.failureThreshold` | The liveness probe failure threshold | `3`
+`controller.livenessProbe.initialDelaySeconds` | The liveness probe initial delay (in seconds) | `60`
+`controller.livenessProbe.periodSeconds` | The liveness probe period (in seconds) | `10`
+`controller.livenessProbe.successThreshold` | The liveness probe success threshold | `1`
+`controller.livenessProbe.timeoutSeconds` | The liveness probe timeout (in seconds) | `1`
 `controller.readinessProbe.path` | The readiness probe path | `/healthz`
 `controller.readinessProbe.port` | The readiness probe port | `10253`
 `controller.readinessProbe.failureThreshold` | The readiness probe failure threshold | `3`
